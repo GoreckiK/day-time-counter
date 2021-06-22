@@ -6,7 +6,6 @@ export const CardComponent = ({ counter }: {counter: ICounter}) => {
         <div className='card'>
             <h2>{counter.counterName}</h2>
             <Clock/>
-
         </div>
     );
 }
@@ -36,7 +35,7 @@ const Clock = () => {
     return (
         <button onClick={handleClick}>
             <div>
-                Time measured: {dateTime}
+                Times measured: {dateTime}
             </div>
         </button>
     )
